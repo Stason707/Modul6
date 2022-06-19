@@ -1,5 +1,5 @@
 const consoleLog = document.querySelector('#consoleLog');
-consoleLog.onclick = function() {
+consoleLog.onclick = function () {
     alert('Привет! Console.log - это метод для вывода сообщений в веб-консоль');
 }
 document.querySelector('#example').onclick = function() {
