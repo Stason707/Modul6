@@ -1,0 +1,120 @@
+body {
+    height: 700px;
+    background: url('https://images.unsplash.com/photo-1654140975275-9fb634e8364c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80');
+    background-size: 100%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background: url('https://images.unsplash.com/photo-1652109000176-1762ed989e48?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1893&q=80');
+    background-size: 100%;
+    color: rgb(13, 2, 133);
+}
+header h1 {
+    padding: 10px;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: Georgia;
+}
+ul {
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    display: inline-flex;
+}
+
+li > a {
+    align-content: center;
+    padding: 18px 40px 18px;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight:800;
+    letter-spacing: .5rem;
+    color: rgb(0, 0, 0);
+    
+    transition: .3s;
+}
+li > a:hover {
+    color: rgb(13, 2, 133);
+    background-color: rgba(36, 36, 36, 0.188);
+}
+.trafficLightBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+    height: 480px;
+    width: 180px;
+    margin-left: 50px;
+    background-color: rgb(42, 39, 53);
+}
+.trafficLightRed {
+    margin: 15px;
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgba(20, 17, 34, 0.312);
+    background-color: rgb(78, 42, 42);
+    border-radius: 50%;
+}
+.trafficLightYellow {
+    margin: 15px;
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgba(20, 17, 34, 0.312);
+    background-color: rgba(149, 136, 41, 0.764);
+    border-radius: 50%;
+}
+.trafficLightGreen {
+    margin: 15px;
+    width: 120px;
+    height: 120px;
+    border: 2px solid rgba(20, 17, 34, 0.312);
+    background-color: rgb(34, 63, 32);
+    border-radius: 50%;
+}
+#linkback {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    letter-spacing: .5rem;
+    color: black;
+    background-color: rgba(220, 220, 220, 0.338);
+    transition: 0.8;
+}
+#linkback:hover {
+    background-color: rgb(49, 68, 119);
+    color: rgb(255, 255, 255);
+}
+footer {
+   text-align: left;
+}
+.copyright {
+    position:fixed;
+    bottom:20px;
+    height:40px;
+    width:100%;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-family: Georgia;
+}
+#task {
+    background: url('https://images.unsplash.com/photo-1654140975275-9fb634e8364c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80');
+    background-size: 100%;
+    font-size: 20px;
+    margin: 20px;
+    line-height: 2;
+}
