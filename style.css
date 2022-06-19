@@ -112,11 +112,16 @@ footer {
     font-family: Georgia;
 }
 #task {
+    display: flex;
+    flex-direction: column;
     background: url('https://images.unsplash.com/photo-1654140975275-9fb634e8364c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80');
     background-size: 100%;
     font-size: 20px;
     margin: 20px;
     line-height: 2;
+}
+#task p {
+    max-width: 450px;
 }
 code {
     font-family:monospace;
